@@ -1,0 +1,17 @@
+{
+    "fittencode.showSubmenu": false,
+    "python.analysis.extraPaths": [
+        "./Python Learning/package",
+        "./Python Learning/modules"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./JS Learning",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "commentTranslate.hover.enabled": true
+}
