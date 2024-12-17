@@ -15,8 +15,6 @@ let contacts = [{
 // Array.isArray(contacts) //check if array
 // contacts instanceof Array // Old way..check if array
 
-
-
 let showContact = (n) =>
   Array.isArray(contacts) && typeof n === 'number' && n >= 0 && n < contacts.length // if condition
   ? contacts[n] // True return
@@ -85,5 +83,3 @@ while (!isDone){
    }
    
 } 
-
-
